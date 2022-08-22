@@ -1,11 +1,11 @@
 #include <iostream>
 
-void my_func(){
-    std::cout << "Shit this works bro";
+void my_func(int x){
+    std::cout << x;
 }
 
 int main(){
-    my_func();
+    my_func(42);
     
     return 0;
 }
